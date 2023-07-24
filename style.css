@@ -7,8 +7,8 @@
     height: 200px;
     margin: 50px auto;
     padding-top: 75px;
-    background: rgba(255,85,0, .7);
+    background: #ccc;
     text-align: center;
-    color: #4E4C48;
-    font-size: 100em;
+    color: #FFF;
+    font-size: 3em;
   }
