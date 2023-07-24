@@ -1,53 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Stalinist+One&display=swap');
-
-body { 
-  background-color: #131316;
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-section {
-  display: grid;
-  place-items: center;
-  align-items: center;
-  min-height: 100vh; 
-}
-
-
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-}
-
-@media(prefers-reduced-motion){
-  .hidden {
-      transition: none;
-      transform: translate(-100%);
-      transition:  all 1s;
+* {
+    box-sizing: border-box;
   }
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0px);
-  transform: translate(0);
-}
-
-.logo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.logo:nth-child(2) {
-    transition-delay: 200ms;
-}
-.logo:nth-child(3) {
-    transition-delay: 400ms;
-}
-.logo:nth-child(4) {
-    transition-delay: 600ms;
-}
+  
+  .item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgba(255,85,0, .7);
+    text-align: center;
+    color: #4E4C48;
+    font-size: 1.5em;
+  }
